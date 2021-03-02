@@ -1,0 +1,59 @@
+
+.pay-price {
+	display: block;
+	background: #fff;
+	border-bottom: 1rpx solid #eee;
+	text-align: center;
+	padding: 20rpx;
+	color: #999;
+}
+.pay-price ._p:last-child {
+	font-size: 60rpx;
+	color: #f60;
+	font-weight: bold;
+	line-height: 100%;
+	padding-top: 16rpx;
+	padding-bottom: 16rpx;
+}
+.pay-title {
+	display: block;
+	text-indent: 20rpx;
+	height: 80rpx;
+	line-height: 80rpx;
+}
+.pay-box {
+	display: block;
+	background: #fff;
+	border-top: 1rpx solid #eee;
+}
+.pay-list {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	height: 100rpx;
+	line-height: 100rpx;
+	border-bottom: 1rpx solid #eee;
+	padding: 0 20rpx;
+}
+.pay-list view {
+	height: 100rpx;
+	line-height: 100rpx;
+}
+.pay-list view image {
+	width: 60rpx;
+	height: 60rpx;
+	vertical-align: middle;
+	margin-right: 20rpx;
+}
+.pay-price ._p text {
+	font-size: 40rpx;
+}
+.pay-btn {
+	width: 90%;
+	margin: 0px auto;
+	padding: 60rpx 0;
+}
+

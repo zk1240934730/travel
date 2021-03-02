@@ -1,0 +1,99 @@
+
+.banner {
+	display: block;
+}
+.banner image {
+	width: 100%;
+	height: 250rpx;
+	display: block;
+}
+.notice {
+	display: block;
+	height: 70rpx;
+	line-height: 70rpx;
+	color: #f60;
+	background: #FFF3E8;
+	font-size: 24rpx;
+}
+.notice ._i {
+	vertical-align: -5rpx;
+	margin: 0 5px 0 10px;
+}
+.train-search {
+	display: block;
+	background: #fff;
+}
+.search-history {
+	width: 90%;
+	margin: 0px auto;
+	padding-bottom: 20rpx;
+}
+.search-history text {
+	display: inline-block;
+	font-size: 24rpx;
+	color: #999;
+	margin-right: 20rpx;
+	height: 40rpx;
+	line-height: 40rpx;
+}
+.search-history text.clear {
+	color: #333;
+}
+.tickets-type {
+	width: 90%;
+	margin: 0px auto;
+	color: #505050;
+	overflow: hidden;
+}
+.tickets-type label {
+	height: 90rpx;
+	line-height: 90rpx;
+	float: left;
+}
+.tickets-type label:last-child {
+	float: right;
+}
+.tickets-type label text {
+	display: inline-block;
+	vertical-align: middle;
+}
+.train-search-date {
+	width: 90%;
+	margin: 0px auto;
+	height: 100rpx;
+	line-height: 100rpx;
+	border-bottom: 1rpx solid #eee;
+	font-size: 40rpx;
+}
+.train-search-date text {
+	display: inline-block;
+	margin-left: 20rpx;
+	font-size: 28rpx;
+}
+.train-search-city {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	width: 90%;
+	margin: 0px auto;
+	padding: 30rpx 0 20rpx 0;
+	border-bottom: 1rpx solid #eee;
+}
+.train-search-city view {
+	font-size: 40rpx;
+}
+.train-search-city view text {
+	display: block;
+	font-size: 20rpx;
+	color: #999;
+}
+.train-icon image {
+	display: block;
+	margin-top: 28rpx;
+	width: 62rpx;
+	height: 62rpx;
+}
+

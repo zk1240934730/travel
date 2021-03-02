@@ -1,0 +1,107 @@
+
+.passenger-box {
+	display: block;
+	background: -webkit-linear-gradient(#0086F6 1%, #f5f6f7 50%);
+	background: linear-gradient(#0086F6 1%, #f5f6f7 50%);
+}
+.passenger-content {
+	width: 96%;
+	margin: 0px auto;
+	background: #fff;
+	border-radius: 10rpx;
+	overflow: hidden;
+}
+.passengers-add {
+	width: 94%;
+	margin: 0px auto;
+	border-bottom: 1rpx solid #f2f2f2;
+	height: 100rpx;
+	line-height: 100rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.add-title {
+	height: 100rpx;
+	line-height: 100rpx;
+	width: 150rpx;
+	color: #666;
+}
+.add-r {
+	float: left;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+}
+.add-r input {
+	height: 100rpx;
+	line-height: 100rpx;
+	font-size: 28rpx;
+}
+.certificate {
+	position: relative;
+	font-size: 28rpx;
+	color: #0086F6;
+}
+.certificate view {
+	line-height: 100rpx;
+}
+.certificate ._i {
+	position: absolute;
+	right: 0;
+	font-size: 24rpx;
+	color: #999;
+	top: 28rpx;
+}
+.tips {
+	font-size: 20rpx;
+	width: 94%;
+	margin: 0px auto;
+	padding: 10rpx;
+	color: #f60;
+	background: #FFF4EA;
+	border-radius: 10rpx;
+	margin-top: 20rpx;
+	line-height: 28rpx;
+}
+.passengers-type label {
+	display: inline-block;
+	margin-right: 20rpx;
+	line-height: 100rpx;
+}
+.determine {
+	width: 94%;
+	margin: 0px auto;
+	padding: 40rpx 0;
+}
+.explain {
+	width: 96%;
+	margin: 0px auto;
+	padding: 40rpx 0;
+	color: #999;
+}
+.explain ._p {
+	display: block;
+	font-size: 24rpx;
+	margin-bottom: 20rpx;
+	line-height: 36rpx;
+}
+.explain ._p:first-child {
+	color: #0086F6;
+}
+.explain ._p:first-child text {
+	color: #f60;
+	font-weight: bold;
+}
+.del-passenger{
+	display: block;
+	text-align: center;
+	color: #999;
+	 height: 60rpx;
+	 line-height: 60rpx;
+}
+.del-passenger ._i{
+	vertical-align: -3rpx;
+	margin-right: 6rpx;
+}
+

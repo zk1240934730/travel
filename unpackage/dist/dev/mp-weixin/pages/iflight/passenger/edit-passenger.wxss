@@ -1,0 +1,147 @@
+
+.editpassenger-box {
+	display: block;
+	background: -webkit-linear-gradient(#0086F6 1%, #f5f6f7 50%);
+	background: linear-gradient(#0086F6 1%, #f5f6f7 50%);
+}
+.passenger-content {
+	width: 96%;
+	margin: 0px auto;
+	background: #fff;
+	border-radius: 10rpx;
+	overflow: hidden;
+	padding-bottom: 0rpx;
+}
+.remind {
+	display: block;
+	height: 60rpx;
+	line-height: 60rpx;
+	background: #FFEFDF;
+	font-size: 22rpx;
+	position: relative;
+}
+.remind text {
+	color: #f60;
+	margin-left: 20rpx;
+}
+.remind ._em {
+	position: absolute;
+	right: 20rpx;
+	height: 60rpx;
+	line-height: 60rpx;
+	color: #0086F6;
+}
+.remind ._em ._i {
+	font-size: 20rpx;
+}
+.passenger-list {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	width: 96%;
+	margin: 0px auto;
+	border-bottom: 1rpx solid #eee;
+}
+.passenger-list:last-child {
+	border-bottom: none;
+}
+.passenger-list view {
+	height: 100rpx;
+	line-height: 100rpx;
+}
+.passenger-list view.left {
+	width: 160rpx;
+}
+.passenger-list view.right {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	position: relative;
+}
+.passenger-list view.right input {
+	font-size: 28rpx;
+	height: 100rpx;
+	line-height: 100rpx;
+}
+.passenger-list view.right ._i {
+	position: absolute;
+	right: 0;
+	font-size: 24rpx;
+	color: #999;
+	top: 0rpx;
+}
+.certificate {
+	position: relative;
+	font-size: 28rpx;
+	color: #0086F6;
+}
+.certificate view {
+	line-height: 100rpx;
+}
+.explain-del {
+	width: 96%;
+	margin: 0px auto;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.explain-del view {
+	height: 100rpx;
+	line-height: 100rpx;
+	color: #999;
+}
+.explain-del view:first-child {
+	color: #0086F6;
+}
+.explain-del view:first-child ._i {
+	font-size: 24rpx;
+}
+.icon-shanchu {
+	vertical-align: -2rpx;
+	margin-right: 6rpx;
+}
+.fill-explain {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: #fff;
+	border-top-left-radius: 10rpx;
+	border-top-right-radius: 10rpx;
+}
+.fill-title {
+	display: block;
+	text-align: center;
+	height: 80rpx;
+	line-height: 80rpx;
+	position: relative;
+	border-bottom: 1rpx solid #eee;
+}
+.fill-title ._em {
+	position: absolute;
+	right: 0;
+	width: 80rpx;
+	height: 80rpx;
+	text-align: center;
+	color: #999;
+}
+.fill-content {
+	display: block;
+	width: 90%;
+	margin: 0px auto;
+	padding: 10rpx 0;
+}
+.fill-content view {
+	display: block;
+	margin-top: 10rpx;
+}
+.fill-content ._p {
+	font-size: 24rpx;
+	margin-bottom: 18rpx;
+	color: #666;
+	line-height: 36rpx;
+}
+

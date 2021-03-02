@@ -1,0 +1,295 @@
+
+.list-date {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	background: #0086F6;
+	padding: 20rpx 0;
+	z-index: 9;
+}
+.list-date view {
+	height: 60rpx;
+	line-height: 60rpx;
+	font-size: 26rpx;
+	color: #fff;
+	width: 30%;
+}
+.list-date view:first-child {
+	margin-left: 20rpx;
+}
+.list-date view.date {
+	text-align: center;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 10rpx;
+}
+.list-date view.date ._i {
+	display: inline-block;
+	margin-left: 10rpx;
+	vertical-align: middle;
+}
+.list-date view:last-child {
+	text-align: right;
+	margin-right: 20rpx;
+}
+.list-date view ._i {
+	font-size: 24rpx;
+}
+.list-box {
+	display: block;
+	margin-top: 118rpx;
+	margin-bottom: 120rpx;
+}
+.ifight-list {
+	width: 96%;
+	margin: 0px auto;
+	background: #fff;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	margin-bottom: 20rpx;
+	border-radius: 10rpx;
+	padding: 20rpx 0;
+}
+.ifight-list-l {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	margin-left: 20rpx;
+	margin-right: 40rpx;
+}
+.ifight-list-r {
+	float: right;
+	width: 200rpx;
+	text-align: right;
+	margin-right: 20rpx;
+}
+.ifight-list-r view.price {
+	font-size: 40rpx;
+	line-height: 100%;
+	font-weight: bold;
+	color: #f60;
+}
+.ifight-list-r view.price text {
+	font-size: 24rpx;
+}
+.ifight-list-r ._p {
+	font-size: 26rpx;
+	color: #999;
+}
+.ifight-time-airport {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.ifight-time-airport view {
+	position: relative;
+}
+.ifight-time-airport view text {
+	display: block;
+	color: #999;
+	font-size: 26rpx;
+}
+.ifight-time-airport view .day {
+	font-size: 20rpx;
+	position: absolute;
+	top: -10rpx;
+	right: -50rpx;
+}
+.ifight-time-airport view text:first-child {
+	color: #333;
+	font-size: 40rpx;
+	font-weight: bold;
+	line-height: 100%;
+}
+.airline-time {
+	display: block;
+	font-size: 24rpx;
+	color: #999;
+	margin-top: 10rpx;
+}
+.airline-time image {
+	width: 32rpx;
+	height: 32rpx;
+	vertical-align: middle;
+	margin-right: 10rpx;
+}
+.airline-time ._em {
+	margin-left: 20rpx;
+	position: relative;
+}
+.airline-time ._em::before {
+	content: '';
+	position: absolute;
+	top: 10rpx;
+	left: 0;
+	width: 2rpx;
+	height: 24rpx;
+	background: #ccc;
+	z-index: 1;
+}
+.airline-time ._i {
+	font-size: 24rpx;
+	margin: 0 6rpx 0 20rpx;
+}
+.turn-city {
+	display: block;
+	position: relative;
+}
+.turn-city image {
+	width: 160rpx;
+	height: 8rpx;
+}
+.turn-city ._em {
+	font-size: 20rpx;
+	position: absolute;
+	top: 20rpx;
+	left: 0;
+	width: 160rpx;
+	text-align: center;
+	z-index: 1;
+	color: #0086F6;
+	line-height: 28rpx;
+}
+.turn-city ._em ._i {
+	background: #fff;
+}
+.list-footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background: #fff;
+	z-index: 9;
+	border-top: 1rpx solid #eee;
+	height: 100rpx;
+}
+.list-footer view {
+	float: left;
+	width: 25%;
+	text-align: center;
+	height: 100rpx;
+	line-height: 100rpx;
+	font-size: 26rpx;
+	color: #505050;
+	line-height: 36rpx;
+}
+.list-footer view ._p {
+	display: block;
+	margin-top: 18rpx;
+	height: 40rpx;
+}
+.list-footer view ._p ._i {
+	font-size: 34rpx;
+}
+.list-footer view ._p ._i.icon-feiji {
+	font-size: 32rpx;
+}
+.list-footer view.active {
+	color: #0086F6;
+}
+.sort-list {
+	display: block;
+	height: 90rpx;
+	line-height: 90rpx;
+	border-bottom: 1rpx solid #f2f2f2;
+	text-align: center;
+	position: relative;
+	color: #505050;
+}
+.sort-list.active {
+	color: #0086F6;
+}
+.sort-list.active ._i {
+	display: block;
+}
+.sort-list ._i {
+	position: absolute;
+	top: 6rpx;
+	right: 20rpx;
+	display: none;
+}
+.screen-content {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	height: 500rpx;
+}
+.screen-left {
+	float: left;
+	width: 200rpx;
+}
+.screen-left view {
+	display: block;
+	height: 100rpx;
+	line-height: 100rpx;
+	border-bottom: 1rpx solid #eee;
+	border-right: 1rpx solid #eee;
+	text-align: center;
+	color: #505050;
+}
+.screen-left view.active {
+	border-right: none;
+	color: #0086F6;
+}
+.screen-right {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	height: 500rpx;
+	overflow: auto;
+}
+.screen-list {
+	display: block;
+	width: 92%;
+	margin: 0px auto;
+}
+.screen-list-info {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	border-bottom: 1rpx solid #eee;
+}
+.screen-list-info view {
+	height: 100rpx;
+	line-height: 100rpx;
+}
+.go-trip {
+	width: 96%;
+	margin: 0px auto;
+	background: #E3F2FF;
+	margin-bottom: 20rpx;
+	border-radius: 10rpx;
+	height: 80rpx;
+	line-height: 80rpx;
+	color: #0086F6;
+	font-size: 26rpx;
+}
+.go-trip ._i {
+	color: #fff;
+	background: #0086F6;
+	height: 36rpx;
+	line-height: 36rpx;
+	width: 36rpx;
+	text-align: center;
+	font-size: 22rpx;
+	border-radius: 6rpx;
+	margin: 0 10rpx;
+	vertical-align: middle;
+}
+.go-trip text {
+	margin-left: 10rpx;
+}
+

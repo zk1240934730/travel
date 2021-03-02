@@ -1,0 +1,74 @@
+{
+  "pages": [
+    "pages/flight/index/index",
+    "pages/train/index/index",
+    "pages/train/list/list",
+    "pages/train/order/order",
+    "pages/train/city/city",
+    "pages/train/date/date",
+    "pages/train/login/login",
+    "pages/train/list/transit-detail",
+    "pages/train/booking/booking",
+    "pages/train/booking/through-stop",
+    "pages/train/order/details",
+    "pages/train/passenger/passenger",
+    "pages/train/passenger/edit-passenger",
+    "pages/common/payment/success",
+    "pages/common/payment/fail",
+    "pages/flight/list/list",
+    "pages/flight/city/city",
+    "pages/flight/date/date",
+    "pages/flight/details/details",
+    "pages/flight/booking/booking",
+    "pages/common/payment/mode",
+    "pages/flight/passenger/passenger",
+    "pages/flight/passenger/edit-passenger",
+    "pages/flight/order/list",
+    "pages/flight/order/details",
+    "pages/iflight/index/index",
+    "pages/iflight/list/list",
+    "pages/iflight/details/details",
+    "pages/iflight/booking/booking",
+    "pages/iflight/order/list",
+    "pages/iflight/passenger/passenger",
+    "pages/iflight/passenger/edit-passenger",
+    "pages/iflight/order/details",
+    "pages/hotel/index/index",
+    "pages/hotel/search/search",
+    "pages/hotel/list/list",
+    "pages/hotel/details/details",
+    "pages/hotel/date/date",
+    "pages/hotel/introduction/introduction",
+    "pages/hotel/booking/booking",
+    "pages/hotel/guest/guest",
+    "pages/hotel/reviews/reviews",
+    "pages/hotel/order/list",
+    "pages/hotel/order/details"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#0086F6"
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#0086F6",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/train/index/index",
+        "text": "首页",
+        "iconPath": "./static/train/tabbar/home.png",
+        "selectedIconPath": "static/train/tabbar/homeed.png"
+      },
+      {
+        "pagePath": "pages/train/order/order",
+        "text": "订单",
+        "iconPath": "static/train/tabbar/order.png",
+        "selectedIconPath": "static/train/tabbar/ordered.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,90 @@
+
+page {
+	background: #f5f6f7;
+}
+.search-top {
+	position: fixed;
+	width: 100%;
+	top: 0rpx;
+	left: 0;
+	z-index: 9;
+	background: #fff;
+	border-bottom: 1rpx solid #f2f2f2;
+	height: 120rpx;
+}
+.search-box {
+	width: 94%;
+	margin: 0px auto;
+	padding-top: 56rpx;
+}
+.search-list {
+	display: block;
+	background: #fff;
+	border-radius: 10rpx;
+	margin-bottom: 20rpx;
+}
+.search-title {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	border-bottom: 1rpx solid #f2f2f2;
+}
+.search-title view {
+	margin-left: 20rpx;
+	height: 80rpx;
+	line-height: 80rpx;
+	color: #0086F6;
+}
+.search-title view ._i {
+	color: #0086F6;
+	vertical-align: middle;
+	margin-right: 10rpx;
+	font-size: 30rpx;
+}
+.search-title view ._i.icon-remen {
+	font-size: 40rpx;
+}
+.search-title view ._i.icon-jurassic_railway-station {
+	font-size: 36rpx;
+}
+.search-title view ._i.icon-feiji1 {
+	font-size: 36rpx;
+}
+.search-title ._em {
+	width: 80rpx;
+	text-align: center;
+}
+.search-title ._em ._i {
+	color: #999;
+	margin-top: 14rpx;
+}
+.search-content {
+	display: block;
+	overflow: hidden;
+}
+.search-content text {
+	float: left;
+	width: 25%;
+	height: 80rpx;
+	border-bottom: 1rpx solid #f2f2f2;
+	border-right: 1rpx solid #f2f2f2;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 26rpx;
+	padding: 0 10rpx;
+	line-height: 32rpx;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+	-webkit-box-pack: center;
+	margin-bottom: -2rpx;
+	color: #505050;
+}
+.search-content text:nth-child(4n+0) {
+	border-right: none;
+}
+

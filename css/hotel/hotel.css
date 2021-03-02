@@ -1,0 +1,184 @@
+/*酒店搜索*/
+.searchtop-content {
+	display: flex;
+	width: 94%;
+	margin: 0px auto;
+	height: 80upx;
+	border: 1upx solid #eee;
+	border-radius: 80upx;
+	margin-top: 20upx;
+}
+
+.searchtop-l {
+	float: left;
+	width: 200upx;
+	border-right: 1upx solid #eee;
+}
+
+.date-icon {
+	display: inline-block;
+	width: 80upx;
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 8upx;
+}
+
+.dateday {
+	display: inline-block;
+	width: 120upx;
+	vertical-align: middle;
+	margin-top: 8upx;
+}
+
+.dateday p {
+	display: block;
+	font-size: 24upx;
+	line-height: 36upx;
+}
+
+.dateday p text {
+	color: #0086F6;
+	margin-left: 6upx;
+}
+
+.searchtop-r {
+	flex: 1;
+	position: relative;
+	padding: 0 20upx;
+}
+
+.searchtop-r input {
+	height: 80upx;
+	line-height: 80upx;
+	font-size: 28upx;
+}
+
+.searchtop-r span {
+	height: 80upx;
+	line-height: 80upx;
+	font-size: 28upx;
+	color: #999;
+}
+
+.searchtop-r i {
+	position: absolute;
+	top: 2upx;
+	right: 0upx;
+	z-index: 5;
+	width: 88upx;
+	height: 76upx;
+	background: #fff;
+	text-align: center;
+	font-size: 40upx;
+	border-top-right-radius: 80upx;
+	border-bottom-right-radius: 80upx;
+	font-weight: bold;
+	color: #999;
+}
+
+
+
+/*价格星级*/
+.star-price {
+	display: block;
+	padding: 3% 0 0 3%;
+	margin-bottom: 20upx;
+}
+
+.star-price h5 {
+	display: block;
+	margin-bottom: 20upx;
+}
+
+.star-price text {
+	display: inline-block;
+	width: 22%;
+	height: 66upx;
+	line-height: 66upx;
+	font-size: 26upx;
+	background: #eee;
+	border-radius: 6upx;
+	text-align: center;
+	color: #505050;
+	margin: 0 3% 3% 0;
+	box-sizing: border-box;
+}
+
+.star-price text.active {
+	border: 1upx solid #0086F6;
+	color: #0086F6;
+	background: #fff;
+}
+
+.star-operation {
+	display: flex;
+	justify-content: space-between;
+	padding: 20upx;
+	border-top: 1upx solid #eee;
+}
+
+.star-operation button {
+	width: 47%;
+}
+
+.reset-btn {
+	background: #fff;
+	color: #666;
+	border: 1upx solid #ddd;
+}
+
+/*价格明细*/
+.hotel-detailed {
+	display: block;
+	background: #fff;
+	padding: 20upx;
+}
+
+.detailed-list {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1upx solid #f2f2f2;
+}
+
+.detailed-list:last-child {
+	border-bottom: none;
+}
+
+.detailed-list view {
+	height: 80upx;
+	line-height: 80upx;
+	font-size: 28upx;
+}
+
+.detailed-list view:last-child {
+	color: #f60;
+}
+
+.hotel-detailed p {
+	display: block;
+	font-size: 32upx;
+}
+
+.hotel-detailed p text {
+	margin-left: 20upx;
+}
+
+.hotel-detailed p.check-in {
+	font-size: 26upx;
+	color: #999;
+	margin-top: 10upx;
+}
+
+.hotel-bottom{
+	bottom: 100upx;
+}
+
+.confirm {
+		color: #4cbf52;
+		border: 1upx solid #4cbf52;
+	}
+
+	.cancel {
+		color: #ff7100;
+		border: 1upx solid #ff7100;
+	}

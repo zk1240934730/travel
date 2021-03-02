@@ -1,0 +1,33 @@
+
+.booking-date {
+	width: 96%;
+	margin: 0px auto;
+	margin-top: 20rpx;
+	margin-bottom: 10rpx;
+}
+.booking-date ._em {
+	font-size: 24rpx;
+	color: #fff;
+	background: #71B8FF;
+	border-radius: 50rpx;
+	padding: 0 10rpx;
+}
+.operation {
+	position: absolute;
+	right: 20rpx;
+	bottom: 10rpx;
+	width: 300rpx;
+	text-align: right;
+}
+.operation button {
+	display: inline-block;
+	height: 50rpx;
+	line-height: 50rpx;
+	margin-left: 20rpx;
+	font-size: 26rpx;
+}
+.operation button:first-child {
+	border-radius: 50rpx;
+	background: #eee;
+}
+

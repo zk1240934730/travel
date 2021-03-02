@@ -1,0 +1,215 @@
+
+.details-box {
+	background: -webkit-linear-gradient(#0086F6 15%, #f5f6f7 85%);
+	background: linear-gradient(#0086F6 15%, #f5f6f7 85%);
+}
+.details-state {
+	width: 90%;
+	margin: 0px auto;
+	height: 100rpx;
+	padding: 20rpx 0;
+}
+.state-icon {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 20rpx;
+}
+.state-icon ._i {
+	color: #fff;
+	font-size: 90rpx;
+	line-height: 100%;
+}
+.state-list {
+	display: inline-block;
+	vertical-align: middle;
+}
+.state-list text:first-child {
+	font-size: 40rpx;
+}
+.state-list text {
+	display: block;
+	color: #fff;
+	font-size: 26rpx;
+	line-height: 50rpx;
+}
+.details-info {
+	width: 96%;
+	margin: 0px auto;
+	background: #fff;
+	border-radius: 10rpx;
+	margin-bottom: 20rpx;
+}
+.ticket-collection {
+	display: block;
+	height: 80rpx;
+	line-height: 80rpx;
+	border-bottom: 1rpx dashed #ccc;
+	text-indent: 20rpx;
+	color: #666;
+	background: #E6F2FF;
+	border-top-left-radius: 10rpx;
+	border-top-right-radius: 10rpx;
+}
+.details-city {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	background: #E6F2FF;
+	padding: 20rpx 30rpx;
+}
+.details-city view.stop {
+	margin-top: 20rpx;
+}
+.details-city view text {
+	display: block;
+	text-align: center;
+	font-size: 26rpx;
+	color: #666;
+}
+.details-city view text.time {
+	font-size: 40rpx;
+	font-weight: bold;
+	line-height: 100%;
+	color: #333;
+}
+.details-city view ._em {
+	color: #0086F6;
+	border: 1rpx solid #0086F6;
+	font-size: 24rpx;
+	border-radius: 100rpx;
+	height: 40rpx;
+	line-height: 40rpx;
+	padding: 0 10rpx;
+	position: relative;
+}
+.details-city view ._em::before {
+	content: '';
+	position: absolute;
+	top: 18rpx;
+	left: -20rpx;
+	width: 20rpx;
+	height: 1rpx;
+	background: #0086F6;
+	z-index: 1;
+}
+.details-city view ._em::after {
+	content: '';
+	position: absolute;
+	top: 18rpx;
+	right: -20rpx;
+	width: 20rpx;
+	height: 1rpx;
+	background: #0086F6;
+	z-index: 1;
+}
+.details-passenger {
+	width: 92%;
+	margin: 0px auto;
+	border-bottom: 1rpx solid #f2f2f2;
+	padding-top: 20rpx;
+}
+.details-passenger:last-child {
+	border-bottom: none;
+}
+.passenger-info {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.passenger-info view text {
+	display: block;
+	font-size: 24rpx;
+	color: #999;
+	line-height: 36rpx;
+}
+.passenger-info view ._p {
+	display: block;
+	margin-bottom: 10rpx;
+}
+.passenger-info view ._p ._em {
+	margin-left: 10rpx;
+	background: #ddd;
+	border-radius: 10rpx;
+	padding: 0 10rpx;
+	font-size: 24rpx;
+	color: #fff;
+	height: 36rpx;
+	line-height: 36rpx;
+}
+.ticket-state {
+	display: block;
+	color: #f60;
+	padding: 20rpx 0;
+}
+.passenger-info view:last-child text {
+	color: #333;
+	font-size: 28rpx;
+	line-height: 50rpx;
+}
+.passenger-info view:last-child text:last-child {
+	margin-top: 30rpx;
+}
+.cancel-order {
+	width: 96%;
+	margin: 0px auto;
+	background: #fff;
+	border-radius: 10rpx;
+	text-align: center;
+	height: 100rpx;
+	line-height: 100rpx;
+}
+.detail-footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100rpx;
+	line-height: 100rpx;
+	background: #fff;
+	border-top: 1rpx solid #f2f2f2;
+}
+.detail-footer view {
+	float: left;
+	margin-left: 20rpx;
+	color: #999;
+	height: 100rpx;
+	line-height: 100rpx;
+}
+.detail-footer view ._strong {
+	color: #f60;
+	margin-left: 10rpx;
+	font-size: 40rpx;
+}
+.detail-footer view ._strong text {
+	font-size: 20rpx;
+}
+.detail-footer view ._em {
+	font-size: 20rpx;
+	vertical-align: middle;
+	margin-left: 20rpx;
+}
+.detail-footer view ._em ._i {
+	font-size: 20rpx;
+	margin-left: 6rpx;
+}
+.detail-footer button {
+	float: right;
+	font-size: 32rpx;
+	width: 300rpx;
+	margin-right: 10rpx;
+	margin-top: 9rpx;
+}
+.detail-footer button.again-tiket {
+	width: 96%;
+	margin-left: 20rpx;
+	background: #007AFF;
+	color: #fff;
+	margin-right: 16rpx;
+}
+

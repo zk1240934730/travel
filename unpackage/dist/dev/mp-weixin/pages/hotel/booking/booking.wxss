@@ -1,0 +1,316 @@
+
+page {
+	background: #f5f6f7;
+}
+.hotel-info {
+	display: block;
+	background: #fff;
+	position: relative;
+	padding: 20rpx;
+}
+.hotel-info ._em {
+	position: absolute;
+	top: 10rpx;
+	right: 20rpx;
+	font-size: 26rpx;
+	color: #0086F6;
+	padding: 10rpx 0;
+}
+.hotel-name {
+	display: block;
+	font-size: 32rpx;
+	font-weight: bold;
+}
+.hotel-sub-name {
+	display: block;
+	font-size: 26rpx;
+}
+.hotel-date {
+	display: block;
+	font-size: 32rpx;
+}
+.hotel-date text {
+	color: #0086F6;
+	margin-left: 20rpx;
+}
+.hotel-installation {
+	display: block;
+}
+.hotel-installation text {
+	display: inline-block;
+	border-right: 1rpx solid #e6e6e6;
+	padding-right: 20rpx;
+	font-size: 26rpx;
+	color: #666;
+	line-height: 26rpx;
+	margin-right: 20rpx;
+}
+.hotel-installation text:last-child {
+	border-right: none;
+}
+.check-in-box {
+	display: block;
+	background: #fff;
+	margin-top: 20rpx;
+}
+.check-in-people {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	border-bottom: 1rpx solid #eee;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.check-in-title {
+	width: 180rpx;
+	font-size: 26rpx;
+	color: #666;
+	text-align: center;
+}
+.check-in-list {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+}
+.check-in-list input {
+	border-bottom: 1rpx solid #f2f2f2;
+	border-right: 1rpx solid #f2f2f2;
+	height: 90rpx;
+	line-height: 90rpx;
+	font-size: 28rpx;
+}
+.check-in-list ._p:last-child input {
+	border-bottom: none;
+}
+.check-in-set {
+	width: 80rpx;
+	text-align: center;
+	color: #0086F6;
+}
+.room-number {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	border-bottom: 1rpx solid #f2f2f2;
+	padding: 0 20rpx;
+}
+.room-number view {
+	height: 80rpx;
+	line-height: 80rpx;
+	font-size: 28rpx;
+}
+.room-number view:last-child {
+	color: #0086F6;
+}
+.room-number view:last-child ._i {
+	font-size: 26rpx;
+	margin-left: 4rpx;
+}
+.phone-time {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	height: 90rpx;
+	line-height: 90rpx;
+	padding: 0 20rpx;
+	position: relative;
+}
+.phone-time text {
+	float: left;
+	width: 200rpx;
+	color: #505050;
+}
+.phone-time ._i {
+	position: absolute;
+	right: 20rpx;
+	color: #999;
+	font-size: 26rpx;
+	top: 4rpx;
+}
+.phone-time input {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	height: 80rpx;
+	line-height: 80rpx;
+}
+.phone-time:last-child {
+	border-top: 1rpx solid #eee;
+}
+.hotel-profile {
+	width: 94%;
+	margin: 0px auto;
+	height: 800rpx;
+	overflow-y: auto;
+}
+.profile-pic {
+	display: block;
+	margin-top: 26rpx;
+}
+.profile-pic image {
+	width: 100%;
+	height: 300rpx;
+	border-radius: 10rpx;
+}
+.hotel-introduction {
+	display: block;
+	padding-bottom: 20rpx;
+}
+.hotel-introduction ._p {
+	display: block;
+	font-weight: bold;
+}
+.hotel-introduction text {
+	display: inline-block;
+	width: 50%;
+	font-size: 26rpx;
+	color: #666;
+}
+.hotel-facilities {
+	display: block;
+	border-top: 1rpx solid #f2f2f2;
+	border-bottom: 1rpx solid #f2f2f2;
+	padding: 20rpx 0;
+}
+.hotel-facilities view {
+	display: inline-block;
+	width: 50%;
+	font-size: 26rpx;
+	color: #666;
+}
+.hotel-facilities view ._i {
+	color: #0086F6;
+	vertical-align: middle;
+	margin-right: 10rpx;
+}
+.hotel-cancel {
+	display: block;
+	padding: 20rpx 0;
+}
+.hotel-cancel ._p {
+	display: block;
+	margin: 10rpx 0;
+}
+.hotel-cancel ._p.hotel-cancel-content {
+	font-size: 26rpx;
+	color: #666;
+	line-height: 36rpx;
+}
+.invoice {
+	background: #fff;
+	margin-top: 20rpx;
+	margin-bottom: 120rpx;
+}
+.invoice-hotel {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+
+	padding: 0 20rpx;
+}
+.invoice-hotel view {
+	height: 90rpx;
+	line-height: 90rpx;
+}
+.invoice-hotel view:first-child {
+	color: #505050;
+}
+.invoice-info {
+	display: block;
+}
+.invoice-info-list {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	overflow: hidden;
+	border-top: 1rpx solid #f2f2f2;
+	padding: 0 20rpx;
+}
+.invoice-info-l {
+	float: left;
+	width: 200rpx;
+	height: 90rpx;
+	line-height: 90rpx;
+}
+.invoice-info-r {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	height: 90rpx;
+	line-height: 90rpx;
+}
+.invoice-info-r input {
+	height: 90rpx;
+	line-height: 90rpx;
+	font-size: 28rpx;
+}
+.invoice-type label {
+	margin-right: 40rpx;
+	line-height: 90rpx;
+}
+.invoice-type label radio {
+	vertical-align: 1rpx;
+}
+.rise text {
+	border: 1rpx solid #ccc;
+	margin-right: 20rpx;
+	height: 60rpx;
+	line-height: 60rpx;
+	padding: 0 20rpx;
+	font-size: 26rpx;
+}
+.rise text.active {
+	color: #0086F6;
+	border: 1rpx solid #0086F6;
+}
+.express {
+	color: #f60;
+}
+.invoice-remarks {
+	display: block;
+	border-top: 1rpx solid #f2f2f2;
+}
+.invoice-remarks ._h5 {
+	padding: 20rpx 0 0 20rpx;
+	color: #666;
+	font-weight: normal;
+	font-size: 28rpx;
+}
+.remarks {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	overflow: hidden;
+	padding: 10rpx 20rpx 30rpx 20rpx;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.remarks .left {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+}
+.remarks .left ._p {
+	font-size: 24rpx;
+	color: #999;
+}
+.remarks .left ._p text {
+	margin-left: 20rpx;
+}
+.remarks .right {
+	float: right;
+	width: 100rpx;
+	text-align: center;
+}
+.paper-invoice {
+	display: block;
+}
+

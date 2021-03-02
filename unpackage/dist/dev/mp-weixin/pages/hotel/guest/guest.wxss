@@ -1,0 +1,55 @@
+
+.guest-content {
+	padding-bottom: 0rpx;
+}
+.guest-add {
+	width: 96%;
+	margin: 0px auto;
+	height: 100rpx;
+	background: #fff;
+	margin-bottom: 20rpx;
+	border-radius: 10rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.add-ipt {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	padding: 0 15rpx;
+}
+.add-ipt input {
+	background: #f2f3f4;
+	height: 70rpx;
+	line-height: 70rpx;
+	border-radius: 10rpx;
+	text-indent: 20rpx;
+	font-size: 28rpx;
+	margin-top: 15rpx;
+}
+.add-btn {
+	float: right;
+	width: 120rpx;
+	margin-right: 15rpx;
+	margin-top: 15rpx;
+}
+.add-btn button {
+	height: 70rpx;
+	line-height: 70rpx;
+}
+.guest-list {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	border-bottom: 1rpx solid #f2f2f2;
+	padding: 0 20rpx;
+}
+.guest-list view {
+	height: 90rpx;
+	line-height: 90rpx;
+}
+

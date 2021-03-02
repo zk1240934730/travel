@@ -1,0 +1,86 @@
+
+.hotel-index {
+	display: block;
+	background: #fff;
+	border-bottom: 1rpx solid #f2f2f2;
+}
+.destination-position {
+	width: 90%;
+	margin: 0px auto;
+	border-bottom: 1rpx solid #eee;
+	padding: 30rpx 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.destination-position view text {
+	display: block;
+	font-size: 24rpx;
+	color: #666;
+}
+.destination-position view text:last-child {
+	font-size: 44rpx;
+	line-height: 100%;
+	color: #111;
+	margin-top: 10rpx;
+}
+.destination-position view:last-child {
+	margin-top: 14rpx;
+}
+.destination-position view:last-child ._p {
+	display: block;
+	text-align: center;
+	color: #0086F6;
+	line-height: 40rpx;
+}
+.destination-position view:last-child ._p ._i {
+	font-weight: bold;
+	text-align: center;
+	font-size: 50rpx;
+}
+.hotel-set-date {
+	width: 90%;
+	margin: 0px auto;
+	border-bottom: 1rpx solid #eee;
+	position: relative;
+	padding: 20rpx 0;
+}
+.hotel-set-date view {
+	display: inline-block;
+	width: 45%;
+}
+.hotel-set-date view text {
+	display: block;
+	font-size: 24rpx;
+	color: #999;
+}
+.hotel-set-date view text:last-child {
+	font-size: 44rpx;
+	color: #111;
+	line-height: 100%;
+}
+.hotel-set-date ._em {
+	position: absolute;
+	right: 0;
+	bottom: 20rpx;
+	font-size: 24rpx;
+	color: #505050;
+}
+.hotel-key-star {
+	display: block;
+	width: 90%;
+	height: 100rpx;
+	line-height: 100rpx;
+	border-bottom: 1rpx solid #f2f2f2;
+	margin: 0px auto;
+}
+.hotel-key-star text {
+	color: #999;
+}
+.sub-btn {
+	padding: 30rpx 0;
+}
+

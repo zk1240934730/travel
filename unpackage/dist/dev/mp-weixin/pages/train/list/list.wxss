@@ -1,0 +1,458 @@
+
+.list-date {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	background: #0086F6;
+	width: 100%;
+	text-align: center;
+	text-align: center;
+}
+.day-before {
+	position: absolute;
+	left: 20rpx;
+	top: 0;
+}
+.day-before ._i {
+	margin-right: 10rpx;
+}
+.next-day {
+	position: absolute;
+	top: 0;
+	right: 20rpx;
+}
+.next-day ._i {
+	margin-left: 10rpx;
+}
+.list-date view {
+	height: 80rpx;
+	line-height: 80rpx;
+	color: #fff;
+	font-size: 26rpx;
+}
+.list-date view.disabled {
+	opacity: 0.5;
+}
+.list-date view ._i {
+	font-size: 20rpx;
+}
+.same-day text {
+	display: inline-block;
+	margin: 0 10rpx;
+}
+.same-day ._i {
+	margin-left: 10rpx;
+}
+.list-content {
+	display: block;
+	margin-top: 80rpx;
+	margin-bottom: 110rpx;
+}
+.train-info {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	overflow: hidden;
+}
+.train-list-city {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	padding: 20rpx 0 0 20rpx;
+}
+.time-city {
+	font-size: 44rpx;
+	font-weight: bold;
+	line-height: 100%;
+	color: #0086F6;
+	text-align: left;
+	position: relative;
+}
+.time-city ._em {
+	position: absolute;
+	top: -8rpx;
+	right: -30rpx;
+	font-size: 20rpx;
+	font-style: normal;
+}
+.time-city text {
+	display: block;
+	font-size: 26rpx;
+	color: #333;
+	font-weight: normal;
+	padding-top: 10rpx;
+}
+.time-city.last {
+	color: #222;
+	text-align: right;
+}
+.time-number view {
+	font-size: 20rpx;
+	text-align: center;
+	color: #999;
+}
+.time-number view:last-child image {
+	width: 30rpx;
+	height: 20rpx;
+	vertical-align: -4rpx;
+	margin-left: 6rpx;
+}
+.go-arrow image {
+	width: 100rpx;
+	height: 8rpx;
+	display: block;
+}
+.go-arrow ._em {
+	font-size: 20rpx;
+	font-style: normal;
+	color: #0086F6;
+	border: 1rpx solid #0086F6;
+	border-radius: 50rpx;
+	padding: 0 8rpx;
+	display: inline-block;
+	height: 22rpx;
+	line-height: 22rpx;
+	position: relative;
+}
+.go-arrow ._em:before {
+	content: '';
+	position: absolute;
+	top: 8rpx;
+	left: -20rpx;
+	z-index: 5;
+	width: 20rpx;
+	height: 2px;
+	background-image: -webkit-linear-gradient(left, #fff, #0086F6);
+	background-image: linear-gradient(to right, #fff, #0086F6);
+}
+.go-arrow ._em:after {
+	content: '';
+	position: absolute;
+	top: 8rpx;
+	right: -20rpx;
+	z-index: 5;
+	width: 20rpx;
+	height: 2px;
+	background-image: -webkit-linear-gradient(left, #0086F6, #fff);
+	background-image: linear-gradient(to right, #0086F6, #fff);
+}
+.ticket-price {
+	float: right;
+	font-size: 40rpx;
+	font-weight: bold;
+	color: #f60;
+	width: 180rpx;
+	text-align: right;
+	margin-top: 8rpx;
+	margin-right: 20rpx;
+}
+.ticket-price text {
+	font-size: 24rpx;
+	font-weight: normal;
+}
+.ticket-price ._em {
+	font-size: 20rpx;
+	font-weight: normal;
+	font-style: normal;
+}
+.search-list {
+	width: 96%;
+	margin: 0px auto;
+	background: #fff;
+	border-radius: 5px;
+	margin-bottom: 20rpx;
+}
+.train-seat {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	padding: 20rpx;
+}
+.train-seat text {
+	display: inline-block;
+	width: 25%;
+	color: #808080;
+	font-size: 24rpx;
+}
+.list-footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 9;
+	width: 100%;
+	height: 90rpx;
+	background: #fff;
+	border-top: 1rpx solid #eee;
+}
+.list-footer view {
+	display: inline-block;
+	width: 25%;
+	height: 90rpx;
+	line-height: 90rpx;
+	font-size: 28rpx;
+	color: #505050;
+	text-align: center;
+	position: relative;
+}
+.list-footer view::after {
+	content: '';
+	position: absolute;
+	top: 36rpx;
+	right: 0;
+	width: 1rpx;
+	height: 24rpx;
+	background: #eee;
+}
+.list-footer view text {
+	display: none;
+	margin-left: 10rpx;
+}
+.list-footer view.active {
+	color: #0086F6;
+}
+.list-footer view.active text:first-child {
+	display: initial;
+}
+.transfer-box {
+	display: block;
+	padding-top: 40rpx;
+}
+.transfer-title {
+	display: block;
+	font-size: 32rpx;
+	padding-left: 20rpx;
+	margin-bottom: 20rpx;
+}
+.transfer-trip {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.transfer-trip text {
+	width: auto;
+}
+.transfer-time view {
+	line-height: 30rpx;
+}
+.book-bg {
+	display: block;
+	background: #fafafa;
+	border: 4rpx solid #fff;
+	border-bottom-left-radius: 10rpx;
+	border-bottom-right-radius: 10rpx;
+}
+.book-list {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	width: 96%;
+	margin: 0px auto;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	border-bottom: 1rpx solid #eee;
+}
+.book-list:last-child {
+	border-bottom: none;
+}
+.book-list view {
+	height: 120rpx;
+	line-height: 120rpx;
+	font-size: 26rpx;
+	color: #505050;
+}
+.book-list view.price {
+	font-weight: bold;
+	color: #f60;
+	font-size: 30rpx;
+}
+.book-list view.price text {
+	font-size: 24rpx;
+}
+.book-list view button {
+	font-size: 28rpx;
+	height: 54rpx;
+	line-height: 54rpx;
+	border-radius: 8rpx;
+	margin-top: 32rpx;
+}
+.filter-bg {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99;
+	background: rgba(0, 0, 0, 0.5);
+}
+.filter-box {
+	position: absolute;
+	width: 100%;
+	background: #fff;
+	left: 0;
+	bottom: 0;
+	border-top-left-radius: 30rpx;
+	border-top-right-radius: 30rpx;
+}
+.filter-title {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	height: 80rpx;
+	line-height: 80rpx;
+	padding: 0 20rpx;
+	font-size: 32rpx;
+}
+.filter-title text {
+	display: block;
+	font-size: 28rpx;
+}
+.filter-title text:first-child {
+	color: #999;
+}
+.filter-title text:last-child {
+	color: #0086F6;
+}
+.filter-content {
+	width: 94%;
+	margin: 0px auto;
+}
+.filter-sub-title {
+	display: block;
+	height: 80rpx;
+	line-height: 80rpx;
+	color: #333;
+}
+.vehicle-type {
+	display: block;
+	overflow: hidden;
+}
+.vehicle-type text {
+	float: left;
+	width: 48%;
+	font-size: 26rpx;
+	color: #808080;
+	background: #f5f5f5;
+	text-align: center;
+	border-radius: 10rpx;
+	height: 70rpx;
+	line-height: 70rpx;
+	margin-bottom: 20rpx;
+	border: 1px solid #f5f5f5;
+	position: relative;
+}
+.vehicle-type text:nth-child(2n+0) {
+	float: right;
+}
+.vehicle-type text.active {
+	border: 1rpx solid #0086F6;
+	color: #0086F6;
+	background: #E1F0FF;
+}
+.vehicle-type text image {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	z-index: 5;
+	width: 30rpx;
+	height: 30rpx;
+	display: none;
+}
+.vehicle-type text.active image {
+	display: block;
+}
+.departure-time {
+	display: block;
+	overflow: hidden;
+}
+.departure-time view {
+	float: left;
+	width: 48%;
+	font-size: 26rpx;
+	color: #808080;
+	background: #f5f5f5;
+	text-align: center;
+	border-radius: 10rpx;
+	line-height: 30rpx;
+	margin-bottom: 20rpx;
+	padding: 10rpx 0;
+	position: relative;
+	border: 1rpx solid #f5f5f5;
+}
+.departure-time view text {
+	display: block;
+	font-size: 20rpx;
+}
+.departure-time view:nth-child(2n+0) {
+	float: right;
+}
+.departure-time view image {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	z-index: 5;
+	width: 30rpx;
+	height: 30rpx;
+	display: none;
+}
+.departure-time view.active {
+	border: 1rpx solid #0086F6;
+	color: #0086F6;
+	background: #E1F0FF;
+}
+.departure-time view.active image {
+	display: block;
+}
+.arrival-station {
+	display: block;
+	overflow: hidden;
+}
+.arrival-station text {
+	float: left;
+	width: 30%;
+	font-size: 26rpx;
+	color: #808080;
+	background: #f5f5f5;
+	text-align: center;
+	border-radius: 10rpx;
+	height: 70rpx;
+	line-height: 70rpx;
+	margin-bottom: 20rpx;
+	margin-right: 20rpx;
+	position: relative;
+	border: 1rpx solid #f5f5f5;
+}
+.arrival-station text:nth-child(3n+0) {
+	float: right;
+}
+.arrival-station text image {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	z-index: 5;
+	width: 30rpx;
+	height: 30rpx;
+	display: none;
+}
+.arrival-station text.active {
+	border: 1rpx solid #0086F6;
+	color: #0086F6;
+	background: #E1F0FF;
+}
+.arrival-station text.active image {
+	display: block;
+}
+

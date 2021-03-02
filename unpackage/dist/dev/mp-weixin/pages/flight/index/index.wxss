@@ -1,0 +1,124 @@
+
+.flight-index {
+	display: block;
+	background: #fff;
+}
+.flight-content {
+	width: 90%;
+	margin: 0px auto;
+}
+.flight-type {
+	border-bottom: 1rpx solid #eee;
+}
+.flight-type view {
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+	height: 100rpx;
+	line-height: 100rpx;
+	color: #666;
+}
+.flight-type view.active text {
+	color: #0086F6;
+	border-bottom: 4rpx solid #0086F6;
+	padding: 0 10rpx;
+	height: 96rpx;
+}
+.flight-search-city {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	padding: 30rpx 0 20rpx 0;
+	border-bottom: 1rpx solid #eee;
+}
+.flight-search-city view {
+	font-size: 40rpx;
+}
+.flight-search-city view text {
+	display: block;
+	font-size: 20rpx;
+	color: #999;
+}
+.flight-icon image {
+	display: block;
+	margin-top: 28rpx;
+	width: 62rpx;
+	height: 62rpx;
+}
+.flight-date {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	border-bottom: 1rpx solid #eee;
+}
+.flight-date view {
+	height: 100rpx;
+	line-height: 100rpx;
+	font-size: 40rpx;
+}
+.flight-date view text {
+	font-size: 28rpx;
+	color: #666;
+	margin-left: 10rpx;
+}
+.carry-type {
+	border-bottom: 1rpx solid #eee;
+	text-align: right;
+	padding: 30rpx 0;
+	position: relative;
+}
+.carry-type view {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 40rpx;
+	text-align: center !important;
+	line-height: 36rpx;
+}
+.carry-type view label {
+	display: block;
+}
+.carry-type view text {
+	font-size: 26rpx;
+	color: #999;
+}
+.carry-type view:first-child {
+	position: absolute;
+	left: 0;
+	top: 45rpx;
+	margin-left: 0px;
+}
+.civil-servant {
+	height: 100rpx;
+	line-height: 100rpx;
+	position: relative;
+	border-bottom: 1rpx solid #eee;
+	position: relative;
+}
+.switch-icon {
+	display: inline-block;
+	margin-left: 20rpx;
+}
+.sub-btn {
+	width: 100%;
+	padding: 40rpx 0;
+}
+.child-babies {
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: #999;
+	font-size: 26rpx;
+	line-height: 100rpx;
+}
+.child-babies ._i {
+	color: #0086F6;
+	vertical-align: -3rpx;
+	margin-right: 10rpx;
+}
+

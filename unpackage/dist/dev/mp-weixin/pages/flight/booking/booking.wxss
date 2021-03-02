@@ -1,0 +1,274 @@
+
+.booking-box {
+	display: block;
+	margin-bottom: 120rpx;
+}
+.voyage-info {
+	display: block;
+	background: #0086F6;
+}
+.voyage-list {
+	width: 92%;
+	margin: 0px auto;
+	position: relative;
+	color: #fff;
+	padding-bottom: 10rpx;
+}
+.voyage-list ._em {
+	position: absolute;
+	font-size: 24rpx;
+	top: 6rpx;
+	right: 0;
+}
+.voyage-list ._em ._i {
+	font-size: 24rpx;
+	margin-left: 6rpx;
+}
+.voyage-list text {
+	margin-left: 20rpx;
+}
+.voyage-list text:first-child {
+	background: #fff;
+	color: #0086F6;
+	border-radius: 6rpx;
+	height: 32rpx;
+	line-height: 32rpx;
+	padding: 0 6rpx;
+	font-size: 24rpx;
+	margin-left: 0;
+}
+.cost-info {
+	display: block;
+	background: #fff;
+}
+.cost-info text {
+	font-size: 28rpx;
+	color: #505050;
+	margin-left: 20rpx;
+	padding: 20rpx 0;
+}
+.passenger-content {
+	display: block;
+}
+.passengers-box {
+	display: block;
+	background: #fff;
+	margin-top: 20rpx;
+	overflow: hidden;
+}
+.passenger-title {
+	width: 94%;
+	margin: 0px auto;
+	height: 80rpx;
+	line-height: 80rpx;
+}
+.passenger-title text {
+	font-size: 24rpx;
+	color: #999;
+	margin-left: 20rpx;
+}
+.add-passenger {
+	width: 94%;
+	margin: 0px auto;
+	border: 1rpx solid #0086F6;
+	border-radius: 10rpx;
+	text-align: center;
+	color: #0086F6;
+	height: 80rpx;
+	line-height: 80rpx;
+	margin-bottom: 20rpx;
+}
+.add-passenger ._i {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10rpx;
+}
+.contact-phone {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	height: 100rpx;
+	line-height: 100rpx;
+	background: #fff;
+	margin: 20rpx 0;
+}
+.contact-phone text {
+	width: 140rpx;
+	text-align: center;
+}
+.contact-phone input {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	height: 100rpx;
+	line-height: 100rpx;
+	font-size: 28rpx;
+	padding-left: 20rpx;
+}
+.invoice {
+	display: block;
+	background: #fff;
+	margin-top: 20rpx;
+}
+.invoice-title {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	height: 100rpx;
+	padding: 0 20rpx;
+}
+.invoice-title view {
+	line-height: 100rpx;
+}
+.invoice-box {
+	display: block;
+	width: 100%;
+	border-top: 1rpx solid #eee;
+}
+.invoice-list {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	border-bottom: 1rpx solid #eee;
+	height: 100rpx;
+	width: 94%;
+	margin: 0px auto;
+	color: #505050;
+}
+.invoice-list view {
+	line-height: 100rpx;
+	font-size: 26rpx;
+}
+.invoice-list view:first-child {
+	float: left;
+	width: 160rpx;
+}
+.invoice-list view input {
+	font-size: 28rpx;
+	height: 100rpx;
+	line-height: 100rpx;
+}
+.invoice-list label {
+	margin-right: 40rpx;
+}
+.invoice-list text {
+	margin-left: 20rpx;
+	color: #f60;
+}
+.invoice-content {
+	display: block;
+}
+.ticket-address {
+	width: 90%;
+	margin: 0px auto;
+	font-size: 26rpx;
+	color: #999;
+	padding: 20rpx 0;
+	line-height: 36rpx;
+}
+.ticket-address text {
+	display: block;
+	padding-top: 10rpx;
+}
+.ticket-address ._i {
+	color: #f60;
+	vertical-align: middle;
+	margin-right: 10rpx;
+}
+.flight-details {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99999;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+}
+.flight-details-box {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: #fff;
+	border-top-left-radius: 10rpx;
+	border-top-right-radius: 10rpx;
+}
+.flight-details-title {
+	display: block;
+	height: 100rpx;
+	line-height: 100rpx;
+	text-align: center;
+	position: relative;
+	font-weight: bold;
+}
+.flight-details-title ._em {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100rpx;
+	height: 100rpx;
+	text-align: center;
+}
+.flight-details-title ._em ._i {
+	color: #999;
+	font-size: 40rpx;
+}
+.flight-details-list {
+	width: 94%;
+	margin: 0px auto;
+	margin-bottom: 40rpx;
+}
+.flight-details-time {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	width: 80%;
+	margin: 0px auto;
+}
+.flight-details-time view text {
+	display: block;
+	text-align: center;
+	font-size: 26rpx;
+}
+.flight-details-time view text:first-child {
+	line-height: 100%;
+	font-size: 40rpx;
+	font-weight: bold;
+}
+.flight-details-time view image {
+	width: 100rpx;
+	height: 10rpx;
+	margin-top: 36rpx;
+}
+.flight-details-info {
+	display: block;
+	margin: 20rpx 0;
+}
+.flight-details-info text {
+	margin-right: 20rpx;
+}
+.flight-details-info ._em {
+	margin-right: 20rpx;
+}
+.flight-details-info ._em image {
+	width: 32rpx;
+	height: 32rpx;
+	vertical-align: middle;
+	margin-right: 10rpx;
+}
+.flight-details-info text:first-child {
+	font-size: 24rpx;
+	color: #fff;
+	background-color: #007AFF;
+	border-radius: 6rpx;
+	height: 30rpx;
+	line-height: 30rpx;
+	padding: 0 6rpx;
+}
+

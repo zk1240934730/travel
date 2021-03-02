@@ -1,0 +1,89 @@
+
+page {
+	background: #ffffff;
+}
+.stop-title {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 750rpx;
+	z-index: 9;
+	background: #0086F6;
+	height: 50rpx;
+	line-height: 50rpx;
+	overflow: hidden;
+}
+.stop-title-l {
+	float: left;
+	width: 100rpx;
+	height: 50rpx;
+}
+.stop-title-r {
+	width: 650rpx;
+	float: left;
+}
+.stop-title view:last-child text {
+
+	width: 25%;
+	color: #fff;
+}
+.stop-box {
+	display: block;
+	margin-top: 50rpx;
+	padding-left: 100rpx;
+}
+.stop-list {
+	display: block;
+	height: 100rpx;
+	line-height: 100rpx;
+	border-bottom: 1rpx solid #f2f2f2;
+	position: relative;
+}
+.stop-list text {
+	display: inline-block;
+	width: 25%;
+}
+.stop-list:first-child text {
+	color: #0086F6;
+}
+.stop-list:first-child ._em {
+	height: 60rpx;
+	top: 42rpx;
+}
+.stop-list:first-child ._em::after {
+	top: 0px;
+	background: #0086F6;
+	border: 1rpx solid #0086F6;
+}
+.stop-list:last-child text {
+	color: #0086F6;
+}
+.stop-list:last-child ._em {
+	height: 60rpx;
+}
+.stop-list:last-child ._em::after {
+	background: #0086F6;
+	border: 1rpx solid #0086F6;
+}
+.stop-list ._em {
+	position: absolute;
+	top: -4rpx;
+	left: -62rpx;
+	width: 20rpx;
+	border-left: 1rpx solid #ddd;
+	height: 103rpx;
+	z-index: 1;
+}
+.stop-list ._em::after {
+	content: '';
+	position: absolute;
+	top: 44rpx;
+	left: -12rpx;
+	width: 20rpx;
+	height: 20rpx;
+	border-radius: 20rpx;
+	border: 1rpx solid #ddd;
+	background: #fff;
+	z-index: 2;
+}
+

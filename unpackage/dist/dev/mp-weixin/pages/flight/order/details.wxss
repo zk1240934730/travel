@@ -1,0 +1,239 @@
+
+.details-box {
+	display: block;
+	margin-bottom: 120rpx;
+}
+.details-state-box {
+	background: #0086F6;
+}
+.details-state {
+	width: 90%;
+	margin: 0px auto;
+	height: 100rpx;
+	padding: 20rpx 0;
+}
+.state-icon {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 20rpx;
+}
+.state-icon ._i {
+	color: #fff;
+	font-size: 90rpx;
+	line-height: 100%;
+}
+.state-list {
+	display: inline-block;
+	vertical-align: middle;
+}
+.state-list text:first-child {
+	font-size: 40rpx;
+}
+.state-list text {
+	display: block;
+	color: #fff;
+	font-size: 26rpx;
+	line-height: 50rpx;
+}
+.details-order {
+	display: block;
+	background: #fff;
+	margin-bottom: 20rpx;
+	padding: 20rpx;
+	position: relative;
+}
+.details-order ._p {
+	display: block;
+	font-size: 24rpx;
+	color: #999;
+}
+.details-order ._p:first-child {
+	font-size: 32rpx;
+	font-weight: bold;
+	color: #ff6600;
+}
+.details-order ._p:first-child ._i {
+	margin-left: 16rpx;
+	color: #0086F6;
+}
+
+/*  */
+.details-order ._em {
+	position: absolute;
+	bottom: 14rpx;
+	right: 20rpx;
+	color: #0086F6;
+	height: 60rpx;
+	line-height: 60rpx;
+	z-index: 1;
+}
+.details-order ._em ._i {
+	font-size: 24rpx;
+}
+.voyage-info {
+	display: block;
+	background: #fff;
+}
+.person-info {
+	display: block;
+	background: #fff;
+	margin-top: 20rpx;
+}
+.person-title {
+	display: block;
+	height: 100rpx;
+	line-height: 100rpx;
+	border-bottom: 1rpx solid #f2f2f2;
+	font-weight: bold;
+	text-indent: 20rpx;
+}
+.person-box {
+	width: 96%;
+	margin: 0px auto;
+	border-bottom: 1rpx solid #eee;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	overflow: hidden;
+	padding-bottom: 20rpx;
+}
+.person-l {
+	color: #999;
+	width: 130rpx;
+	margin-right: 20rpx;
+	margin-top: 20rpx;
+}
+.person-r {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+}
+.person-list {
+	display: block;
+	margin-top: 20rpx;
+}
+.person-list ._p {
+	display: block;
+	font-size: 24rpx;
+	color: #999;
+}
+.person-list ._p:first-child {
+	font-size: 28rpx;
+	color: #222;
+}
+.person-list ._p:first-child text {
+	font-size: 24rpx;
+	background: #eee;
+	padding: 0 10rpx;
+	border-radius: 10rpx;
+	color: #999;
+	height: 40rpx;
+	line-height: 40rpx;
+	margin-left: 10rpx;
+}
+.contact-phone {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	height: 100rpx;
+	background: #fff;
+	border-bottom: 1rpx solid #eee;
+}
+.contact-phone view {
+	line-height: 100rpx;
+}
+.contact-phone view:first-child {
+	color: #999;
+	width: 120rpx;
+	margin: 0 20rpx;
+}
+.details-footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100rpx;
+	background: #fff;
+	border-top: 1rpx solid #eee;
+	text-align: center;
+}
+.details-footer button {
+	display: inline-block;
+	width: 41%;
+	border-radius: 100rpx;
+	margin: 0 20rpx;
+	margin-top: 10rpx;
+}
+.price-detailed {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	z-index: 999;
+}
+.detailed-box {
+	position: absolute;
+	background: #fff;
+	width: 100%;
+	border-top-left-radius: 20rpx;
+	border-top-right-radius: 20rpx;
+	left: 0;
+	bottom: 0;
+}
+.detailed-title {
+	display: block;
+	text-align: center;
+	height: 100rpx;
+	line-height: 100rpx;
+	text-align: center;
+	font-weight: bold;
+	border-bottom: 1rpx solid #eee;
+	position: relative;
+	margin-bottom: 20rpx;
+}
+.detailed-title ._em {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100rpx;
+	height: 100rpx;
+	text-align: center;
+}
+.detailed-title ._em ._i {
+	color: #666;
+}
+.detailed-subtitle {
+	display: block;
+	color: #999;
+	width: 90%;
+	margin: 0px auto;
+	padding: 10rpx 0;
+}
+.detailed-list {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	width: 90%;
+	margin: 0px auto;
+	height: 60rpx;
+	line-height: 60rpx;
+}
+.detailed-insurance {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	width: 90%;
+	margin: 0px auto;
+	height: 60rpx;
+	line-height: 60rpx;
+	margin-bottom: 10rpx;
+}
+

@@ -1,0 +1,241 @@
+
+.transit-box {
+	display: block;
+	margin-bottom: 120rpx;
+}
+.date-time {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	background: #0086F6;
+	padding: 0 20rpx;
+	color: #fff;
+	padding-bottom: 10rpx;
+}
+.ransit-city {
+	display: block;
+	background: #fff;
+	padding: 20rpx 0;
+}
+.ransit-info {
+	width: 90%;
+	margin: 0px auto;
+}
+.ransit-set-out {
+	display: block;
+	font-size: 24rpx;
+	color: #999;
+}
+.ransit-set-out text {
+	display: inline-block;
+	padding-right: 20rpx;
+	height: 20rpx;
+	line-height: 20rpx;
+	position: relative;
+}
+.ransit-set-out text:first-child {
+	background: #0086F6;
+	padding-left: 10rpx;
+	padding-right: 10rpx;
+	color: #fff;
+	font-size: 26rpx;
+	margin-right: 30rpx;
+	height: 30rpx;
+	line-height: 30rpx;
+	border-radius: 6rpx;
+}
+.ransit-set-out text:nth-child(3) {
+	border-right: 1rpx solid #ccc;
+	margin-right: 20rpx;
+}
+.ransit-set-out text:nth-child(4) {
+	border-right: 1rpx solid #ccc;
+	margin-right: 20rpx;
+}
+.ransit-station {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	margin-top: 10rpx;
+}
+.ransit-station view:first-child {
+	float: left;
+	border-left: 1rpx solid #ddd;
+	width: 30rpx;
+	height: 74rpx;
+	position: relative;
+	margin-top: 30rpx;
+	margin-left: 20rpx;
+}
+.ransit-station view:first-child::before {
+	content: '';
+	position: absolute;
+	top: -4rpx;
+	left: -7rpx;
+	width: 10rpx;
+	height: 10rpx;
+	border-radius: 10rpx;
+	background: #ddd;
+	z-index: 1;
+}
+.ransit-station view:first-child::after {
+	content: '';
+	position: absolute;
+	bottom: -4rpx;
+	left: -8rpx;
+	width: 10rpx;
+	height: 10rpx;
+	border-radius: 10rpx;
+	background: #fff;
+	border: 1rpx solid #ddd;
+	z-index: 1;
+}
+.ransit-station view:last-child {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	margin-left: 16rpx;
+}
+.ransit-station view:last-child ._p {
+	display: block;
+	margin-bottom: 6rpx;
+}
+.ransit-station view:last-child ._p text {
+	margin-left: 50rpx;
+	font-size: 32rpx;
+	position: relative;
+}
+.ransit-station view:last-child ._p text ._em {
+	position: absolute;
+	top: 4rpx;
+	left: -45rpx;
+	font-size: 20rpx;
+}
+.different-station {
+	width: 90%;
+	margin: 0px auto;
+	margin-bottom: 10rpx;
+	color: #666;
+}
+.different-station text {
+	display: inline-block;
+	border: 1rpx solid #f60;
+	color: #f60;
+	width: 40rpx;
+	height: 40rpx;
+	line-height: 40rpx;
+	border-radius: 40rpx;
+	text-align: center;
+	margin-right: 30rpx;
+}
+.different-station ._em {
+	color: #0086F6;
+	font-style: normal;
+	margin-left: 20rpx;
+}
+.different-station ._em ._i {
+	vertical-align: middle;
+}
+.stroke {
+	display: block;
+	background: #fff;
+	margin-top: 20rpx;
+	padding: 20rpx 0;
+}
+.stroke-list {
+	width: 90%;
+	margin: 0px auto;
+}
+.stroke-title {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	height: 70rpx;
+	line-height: 70rpx;
+}
+.stroke-title text.notice {
+	color: #0086F6;
+}
+.stroke-content {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	margin: 0px auto;
+	margin-bottom: 10rpx;
+}
+.stroke-content view {
+	text-align: center;
+	width: 31%;
+	background: #f8f8f8;
+	height: 150rpx;
+	border: 1rpx solid #f8f8f8;
+	border-radius: 10rpx;
+	position: relative;
+}
+.stroke-content view text {
+	display: block;
+	font-size: 24rpx;
+	color: #808080;
+	line-height: 36rpx;
+}
+.stroke-content view text:first-child {
+	font-size: 28rpx;
+	padding-top: 16rpx;
+	padding-bottom: 5px;
+}
+.stroke-content view.active {
+	border: 1rpx solid #0086F6;
+	color: #0086F6;
+	background: #E1F0FF;
+}
+.stroke-content view image {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+	width: 40rpx;
+	height: 40rpx;
+	display: none;
+}
+.stroke-content view.active image {
+	display: block;
+}
+.transit-footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background: #fff;
+	height: 100rpx;
+	border-top: 1rpx solid #f2f2f2;
+}
+.transit-footer view {
+	float: left;
+	margin-left: 20rpx;
+	line-height: 100rpx;
+	color: #505050;
+}
+.transit-footer view text {
+	display: inline-block;
+	margin-left: 20rpx;
+	color: #f60;
+}
+.transit-footer button {
+	float: right;
+	margin-right: 20rpx;
+	margin-top: 15rpx;
+	font-size: 28rpx;
+	height: 70rpx;
+	line-height: 70rpx;
+	padding: 0 40rpx;
+}
+

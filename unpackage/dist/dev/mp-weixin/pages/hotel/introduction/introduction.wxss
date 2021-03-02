@@ -1,0 +1,124 @@
+
+page {
+	background: #f5f6f7;
+}
+.introduction-type {
+	position: fixed;
+	top: 0rpx;
+	left: 0;
+	width: 100%;
+	height: 90rpx;
+	z-index: 1;
+	background: #fff;
+	box-shadow: 0 1rpx 10rpx #ccc;
+}
+.introduction-type view {
+	display: inline-block;
+	width: 25%;
+	text-align: center;
+}
+.introduction-type view text {
+	height: 90rpx;
+	line-height: 90rpx;
+}
+.introduction-type view.active text {
+	color: #0086F6;
+	border-bottom: 4rpx solid #0086F6;
+	height: 86rpx;
+}
+.introduction-box {
+	display: block;
+	margin-top: 20rpx;
+}
+.introduction-content {
+	display: block;
+	background: #fff;
+	margin-bottom: 20rpx;
+}
+.introduction-menu {
+	width: 96%;
+	margin: 0px auto;
+	font-weight: bold;
+	color: #333;
+	padding-top: 30rpx;
+	font-size: 32rpx;
+}
+.facilities-content {
+	width: 96%;
+	margin: 0px auto;
+	padding: 20rpx 0;
+}
+.facilities-list {
+	display: block;
+	overflow: hidden;
+	margin-bottom: 20rpx;
+}
+.facilities-list ._h5 {
+	display: block;
+	font-size: 32rpx;
+	font-weight: normal;
+}
+.facilities-list view {
+	float: left;
+	width: 50%;
+	font-size: 24rpx;
+	color: #999;
+}
+.facilities-list view ._p {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.hotel-profile {
+	width: 96%;
+	margin: 0px auto;
+	padding: 20rpx 0;
+	font-size: 26rpx;
+	color: #505050;
+	line-height: 40rpx;
+	overflow: hidden;
+}
+.hotel-profile image {
+	width: 100%;
+}
+.traffic {
+	width: 96%;
+	margin: 0px auto;
+	height: 80rpx;
+	line-height: 80rpx;
+	position: relative;
+}
+.traffic ._i {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.hotel-policy {
+	width: 96%;
+	margin: 0px auto;
+}
+.hotel-policy-content {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	border-bottom: 1rpx solid #eee;
+	overflow: hidden;
+	padding: 20rpx 0;
+	color: #666;
+}
+.hotel-policy-content:last-child {
+	border-bottom: none;
+}
+.hotel-policy-l {
+	float: left;
+	width: 160rpx;
+	font-size: 26rpx;
+}
+.hotel-policy-r {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	line-height: 40rpx;
+	font-size: 26rpx;
+}
+

@@ -1,0 +1,221 @@
+
+.flight-index {
+	display: block;
+	background: #fff;
+}
+.flight-content {
+	width: 90%;
+	margin: 0px auto;
+}
+.flight-type {
+	border-bottom: 1rpx solid #eee;
+}
+.flight-type view {
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+	height: 100rpx;
+	line-height: 100rpx;
+	color: #666;
+}
+.flight-type view.active text {
+	color: #0086F6;
+	border-bottom: 4rpx solid #0086F6;
+	padding: 0 10rpx;
+	height: 96rpx;
+}
+.flight-search-city {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	padding: 30rpx 0 20rpx 0;
+	border-bottom: 1rpx solid #eee;
+}
+.flight-search-city view {
+	font-size: 40rpx;
+	width: 40%;
+}
+.flight-search-city view text {
+	display: block;
+	font-size: 20rpx;
+	color: #999;
+}
+.flight-search-city view.city-name {
+	display: block;
+	width: 100%;
+	height: 60rpx;
+	line-height: 60rpx;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.flight-search-city view:last-child view.city-name {
+	text-align: right;
+}
+.flight-search-city view:last-child text {
+	text-align: right;
+}
+.flight-search-city view.flight-icon {
+	width: 20%;
+	text-align: center;
+}
+.flight-search-city view.flight-icon image {
+	display: inline-block;
+	margin-top: 28rpx;
+	width: 62rpx;
+	height: 62rpx;
+}
+.flight-date {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	border-bottom: 1rpx solid #eee;
+}
+.flight-date view {
+	height: 100rpx;
+	line-height: 100rpx;
+	font-size: 40rpx;
+}
+.flight-date view text {
+	font-size: 28rpx;
+	color: #666;
+	margin-left: 10rpx;
+}
+.space-number {
+	border-bottom: 1rpx solid #eee;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.space-number view {
+	height: 100rpx;
+	line-height: 100rpx;
+	position: relative;
+}
+.space-number view:last-child {
+	text-align: right;
+}
+.space-number view ._em {
+	display: inline-block;
+	font-size: 24rpx;
+	margin-left: 20rpx;
+	color: #999;
+}
+.space-number view ._em text {
+	font-size: 32rpx;
+	color: #000;
+}
+.civil-servant {
+	height: 100rpx;
+
+	position: relative;
+	border-bottom: 1rpx solid #eee;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.civil-servant view {
+	line-height: 100rpx;
+}
+.switch-icon {
+	display: inline-block;
+	margin-left: 20rpx;
+}
+.sub-btn {
+	width: 100%;
+	padding: 40rpx 0;
+}
+.passengers-type {
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	height: 100rpx;
+	line-height: 100rpx;
+	border-bottom: 1rpx solid #eee;
+	position: relative;
+	margin-bottom: 20rpx;
+}
+.passengers-type ._em {
+	position: absolute;
+	right: 0;
+	width: 100rpx;
+	height: 100rpx;
+	text-align: center;
+}
+.passengers-type ._em ._i {
+	color: #666;
+}
+.passengers-list {
+	width: 90%;
+	margin: 0px auto;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.passengers-list view {
+	height: 100rpx;
+	line-height: 100rpx;
+}
+.passengers-list view text {
+	font-size: 24rpx;
+	color: #999;
+}
+.passengers-list view:first-child ._i {
+	color: #0086F6;
+	font-size: 36rpx;
+	vertical-align: middle;
+	margin-right: 10rpx;
+}
+.passengers-list view:last-child {
+	width: 210rpx;
+}
+.passengers-list view:last-child ._p {
+	display: inline-block;
+	width: 50rpx;
+	height: 50rpx;
+	line-height: 50rpx;
+	border-radius: 50rpx;
+	text-align: center;
+	border: 1rpx solid #ddd;
+}
+.passengers-list view:last-child ._em {
+	width: 100rpx;
+	text-align: center;
+}
+.passengers-list view ._p:first-child {
+	color: #ddd;
+	border: 1rpx solid #eee;
+}
+.passengers-list view.active ._p:first-child {
+	border: 1rpx solid #0086F6;
+	color: #0086F6;
+}
+.passengers-list view:last-child ._p:last-child {
+	background: #0086F6;
+	border: 1rpx solid #0086F6;
+}
+.passengers-list view:last-child ._p:last-child ._i {
+	font-weight: bold;
+	color: #fff;
+}
+.passengers-sub {
+	width: 90%;
+	margin: 0px auto;
+	padding: 40rpx 0;
+}
+

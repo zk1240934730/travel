@@ -1,0 +1,897 @@
+/*退改签*/
+.rebook {
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 99999;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.rebook-box {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: #fff;
+	border-top-left-radius: 20upx;
+	border-top-right-radius: 20upx;
+}
+
+.rebook-title {
+	display: block;
+	text-align: center;
+	height: 100upx;
+	line-height: 100upx;
+	font-weight: bold;
+	position: relative;
+	color: #f60;
+	font-size: 36upx;
+}
+
+.rebook-title em {
+	position: absolute;
+	right: 20upx;
+	width: 100upx;
+	height: 100upx;
+	text-align: center;
+}
+
+.rebook-title em i {
+	color: #999;
+}
+
+.rebook-type {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 20upx;
+}
+
+.rebook-type view {
+	width: 30%;
+	text-align: center;
+	height: 100upx;
+	line-height: 100upx;
+	font-weight: bold;
+}
+
+.rebook-type view.active text {
+	color: #0086F6;
+	border-bottom: 6upx solid #0086F6;
+	height: 90upx;
+}
+
+.rebook-sub-title {
+	width: 94%;
+	margin: 0px auto;
+	margin-top: 30upx;
+	font-weight: bold;
+}
+
+.rebook-sub-title i {
+	margin-right: 12upx;
+}
+
+.rebook-sub-title i.icon-dayinpingzheng {
+	font-size: 28upx;
+	color: #1AAD19;
+}
+
+.rebook-sub-title i.icon-hanglijicun {
+	color: #0086F6;
+	font-size: 36upx;
+}
+
+.rebook-sub-title i.icon-xiugai {
+	font-size: 28upx;
+	color: #1AAD19;
+}
+
+.rebook-sub-title i.icon-tanhao {
+	color: #f60;
+}
+
+.other-explain {
+	width: 94%;
+	margin: 0px auto;
+	font-size: 26upx;
+	color: #666;
+	line-height: 40upx;
+}
+
+.other-explain p {
+	display: block;
+	margin-bottom: 20upx;
+}
+
+.reimbursement {
+	width: 94%;
+	margin: 0px auto;
+}
+
+.reimbursement p {
+	color: #666;
+	margin-top: 10upx;
+}
+
+.luggage {
+	width: 94%;
+	margin: 0px auto;
+	margin-top: 10upx;
+}
+
+.changes-explain {
+	width: 94%;
+	margin: 0px auto;
+	margin-top: 10upx;
+}
+
+.rebook-content {
+	display: block;
+	max-height: 800upx;
+	overflow-y: auto;
+}
+
+/*航程信息*/
+.trip-box {
+	display: block;
+	background: #fff;
+}
+
+.trip-info {
+	width: 94%;
+	margin: 0px auto;
+	padding-top: 20upx;
+	border-bottom: 1upx dashed #e6e6e6;
+}
+
+.aviation-info {
+	display: block;
+	font-size: 26upx;
+}
+
+.aviation-info image {
+	width: 32upx;
+	height: 32upx;
+	vertical-align: middle;
+	margin-right: 10upx;
+}
+
+.aviation-info text {
+	margin-left: 10upx;
+}
+
+.aviation-info em {
+	color: #fff;
+	font-size: 22upx;
+	background: #0086F6;
+	border-radius: 6upx;
+	padding: 0 8upx;
+	margin-right: 10upx;
+	height: 36upx;
+	line-height: 36upx;
+}
+
+.time-airport {
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin: 0px auto;
+	padding: 20upx 0;
+}
+
+.time-airport view text {
+	display: block;
+	text-align: center;
+	font-size: 26upx;
+}
+
+.time-airport view text:first-child {
+	color: #333;
+	font-size: 50upx;
+	font-weight: bold;
+	line-height: 100%;
+	margin-bottom: 6upx;
+}
+
+.go-arrow image {
+	width: 100upx;
+	height: 10upx;
+	margin-top: 40upx;
+}
+
+.punctuality-model {
+	display: block;
+	width: 80%;
+	margin: 0px auto;
+	padding-bottom: 20upx;
+}
+
+.punctuality-model view {
+	display: inline-block;
+	font-size: 26upx;
+	color: #999;
+	margin-right: 30upx;
+	position: relative;
+	padding-right: 20upx;
+}
+
+.punctuality-model view::after {
+	content: '';
+	position: absolute;
+	top: 14upx;
+	right: 0;
+	width: 1upx;
+	height: 26upx;
+	background: #ddd;
+}
+
+/*儿童婴儿购票说明*/
+.passenger-bg {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.ticket-notice {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: #fff;
+	border-top-left-radius: 10upx;
+	border-top-right-radius: 10upx;
+
+}
+
+.notice-content {
+	display: block;
+	max-height: 800upx;
+	overflow-y: auto;
+}
+
+.notice-title {
+	display: block;
+	text-align: center;
+	height: 80upx;
+	line-height: 80upx;
+	position: relative;
+	border-bottom: 1upx solid #eee;
+}
+
+.notice-title em {
+	position: absolute;
+	right: 0;
+	width: 80upx;
+	height: 80upx;
+	text-align: center;
+	color: #999;
+}
+
+.notice-list {
+	width: 90%;
+	margin: 0px auto;
+}
+
+.titles {
+	display: block;
+	height: 90upx;
+	line-height: 90upx;
+}
+
+.titles i {
+	display: inline-block;
+	margin-right: 10upx;
+	color: #0086F6;
+}
+
+.titles i.icon-quanmianshidai- {
+	font-size: 42upx;
+	vertical-align: middle;
+}
+
+.notice-tab {
+	border: 1upx solid #eee;
+	border-radius: 10upx;
+}
+
+.notice-tab-list {
+	display: flex;
+	border-bottom: 1upx solid #eee;
+}
+
+.notice-tab-list:last-child {
+	border-bottom: none;
+}
+
+.notice-tab-list view {
+	padding: 10upx 0;
+	color: #666;
+	font-size: 24upx;
+
+}
+
+.notice-tab-list view.title {
+
+	text-indent: 20upx;
+	border-right: 1upx solid #eee;
+	width: 146upx;
+}
+
+.notice-tab-list view.content {
+	flex: 1;
+	padding: 10upx;
+}
+
+.faq {
+	display: block;
+	font-size: 24upx;
+	color: #999;
+	padding-bottom: 20upx;
+}
+
+/*已选乘客*/
+.booking-passenger-list {
+	display: block;
+	margin-bottom: 20upx;
+	position: relative;
+}
+
+.passenger-del {
+	display: inline-block;
+	width: 100upx;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.passenger-del i {
+	font-size: 50upx;
+	color: #ff0000;
+}
+
+.passenger-identity {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.passenger-identity p {
+	font-size: 24upx;
+	color: #999;
+}
+
+.passenger-identity p text {
+	margin-left: 10upx;
+}
+
+.passenger-identity p.name {
+	font-size: 32upx;
+	color: #000;
+}
+
+.passenger-identity p.name em {
+	font-size: 20upx;
+	border: 1upx solid #eee;
+	color: #999;
+	padding: 0 6upx;
+	margin-left: 20upx;
+	vertical-align: 2upx;
+}
+
+.passenger-type {
+	position: absolute;
+	right: 36upx;
+	bottom: 0;
+	font-size: 24upx;
+	color: #0086F6;
+	z-index: 1;
+}
+
+.passenger-edit {
+	position: absolute;
+	height: 100upx;
+	line-height: 100upx;
+	right: 0upx;
+	bottom: 0;
+	font-size: 24upx;
+	color: #0086F6;
+	width: 80upx;
+	padding-right: 40upx;
+	z-index: 1;
+	text-align: right;
+}
+
+
+/*选择乘客*/
+.passenger-box {
+	display: block;
+	background: linear-gradient(#0086F6 1%, #f5f6f7 50%);
+	margin-bottom: 120upx;
+}
+
+.passenger-search {
+	width: 96%;
+	margin: 0px auto;
+	background: #fff;
+	border-radius: 10upx;
+	height: 80upx;
+	line-height: 80upx;
+	margin-bottom: 20upx;
+	position: relative;
+}
+
+.passenger-search input {
+	display: block;
+	height: 80upx;
+	line-height: 80upx;
+	font-size: 28upx;
+	text-indent: 60upx;
+}
+
+.passenger-search i.icon-sousuo {
+	position: absolute;
+	left: 10upx;
+	font-size: 36upx;
+	color: #999;
+}
+
+.passenger-search i.icon-guanbi {
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: center;
+	width: 80upx;
+	height: 80upx;
+	z-index: 1;
+	color: #999;
+}
+
+.passenger-content {
+	width: 96%;
+	margin: 0px auto;
+	background: #fff;
+	border-radius: 10upx;
+	padding-bottom: 30upx;
+}
+
+.passenger-no {
+	position: inherit;
+	padding: 120upx;
+}
+
+.passenger-add {
+	display: block;
+	text-align: center;
+	color: #0086F6;
+	height: 90upx;
+	line-height: 90upx;
+	border-bottom: 1upx solid #eee;
+}
+
+.passenger-add i {
+	vertical-align: middle;
+	margin-right: 10upx;
+}
+
+.edit-icon {
+	display: inline-block;
+	width: 100upx;
+	text-align: center;
+}
+
+.edit-icon i {
+	color: #999;
+}
+
+.passenger-info {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.passenger-list {
+	margin-top: 30upx;
+	position: relative;
+}
+
+.passenger-list p {
+	font-size: 24upx;
+	color: #999;
+	line-height: 40upx;
+}
+
+.passenger-list p:first-child {
+	font-size: 32upx;
+	color: #000;
+}
+
+.passenger-list p:first-child em {
+	font-size: 20upx;
+	color: #999;
+	border: 1upx solid #eee;
+	padding: 0 10upx;
+	border-radius: 6upx;
+	margin-left: 10upx;
+	vertical-align: 2upx;
+	height: 34upx;
+}
+
+.passenger-list p text {
+	margin-left: 20upx;
+}
+
+.passenger-footer {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+	z-index: 9;
+	background: #fff;
+	height: 100upx;
+	border-top: 1upx solid #eee;
+}
+
+.passenger-footer button {
+	width: 90%;
+	margin-top: 8upx;
+}
+
+.passenger-set {
+	position: absolute;
+	right: 0;
+	top: 10upx;
+	height: 70upx;
+	padding-right: 20upx;
+}
+
+/*订单管理*/
+.order-type {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	background: #fff;
+	border-bottom: 1upx solid #f2f2f2;
+}
+
+.order-type view {
+	text-align: center;
+	width: 33.33%;
+	height: 80upx;
+	line-height: 80upx;
+	color: #666;
+}
+
+.order-type view.active text {
+	color: #0086F6;
+	font-weight: bold;
+	border-bottom: 4upx solid #0086F6;
+	height: 76upx;
+}
+
+.order-box {
+	margin-top: 100upx;
+}
+
+.order-list {
+	width: 96%;
+	margin: 0px auto;
+	background: #fff;
+	border-radius: 5px;
+	display: flex;
+	margin-bottom: 20upx;
+	padding: 20upx 0;
+	position: relative;
+}
+
+.order-list-l {
+	flex: 1;
+	margin-left: 20upx;
+	width: 1upx;
+}
+
+.order-list-l view {
+	font-size: 26upx;
+	color: #404040;
+}
+
+.order-list-l view text {
+	margin-left: 10upx;
+}
+
+.order-list-l view.city {
+	font-size: 32upx;
+	font-weight: bold;
+	color: #404040;
+}
+
+.order-list-l view.city em {
+	display: inline-block;
+	margin: 0 16upx;
+	vertical-align: 6upx;
+}
+
+.order-list-l view.city em image {
+	width: 30upx;
+	height: 10upx;
+}
+
+.order-list-l view.train-number {
+	color: #999;
+}
+
+.order-list-r {
+	float: right;
+	width: 150upx;
+	margin-right: 20upx;
+}
+
+.order-list-r p {
+	display: block;
+	text-align: right;
+	font-size: 26upx;
+	line-height: 40upx;
+}
+
+.order-list-r p:first-child {
+	font-size: 32upx;
+	font-weight: bold;
+	color: #f60;
+}
+
+.order-list-r p:first-child text {
+	font-size: 24upx;
+}
+
+.gray view {
+	color: #ccc;
+}
+
+.gray view.city {
+	color: #ccc;
+}
+
+.gray view.train-number {
+	color: #ccc;
+}
+
+.gray view p:first-child {
+	color: #ccc;
+}
+
+/*筛选标题*/
+.screen-title {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1upx solid #eee;
+}
+
+.screen-title view {
+	height: 80upx;
+	line-height: 80upx;
+	padding: 0 30upx;
+	color: #999;
+}
+
+.screen-title view:last-child {
+	color: #0086F6;
+}
+
+.screen-title view text {
+	background: #eee;
+	height: 50upx;
+	line-height: 50upx;
+	border-radius: 10upx;
+	padding: 0 16upx;
+}
+
+/*机票预订页底部*/
+.booking-footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 9999;
+	height: 100upx;
+	line-height: 100upx;
+	background: #fff;
+	width: 100%;
+	border-top: 1upx solid #eee;
+}
+
+.booking-footer view {
+	float: left;
+	line-height: 100upx;
+	margin-left: 20upx;
+}
+
+.booking-footer view text {
+	font-weight: bold;
+	color: #f60;
+	margin-left: 10upx;
+}
+
+.booking-footer view em {
+	font-size: 24upx;
+	color: #999;
+	margin-left: 20upx;
+}
+
+.booking-footer view em i {
+	font-size: 20upx;
+	margin-left: 6upx;
+}
+
+.booking-footer button {
+	float: right;
+	width: 200upx;
+	height: 70upx;
+	line-height: 70upx;
+	font-size: 32upx;
+	margin-right: 20upx;
+	margin-top: 14upx;
+}
+
+/*机票预订保险*/
+.insurance {
+	display: block;
+	background: #fff;
+}
+
+.insurance-guarantee {
+	display: block;
+	height: 66upx;
+	line-height: 66upx;
+	background: #FFEFDF;
+	font-size: 26upx;
+	color: #f60;
+}
+
+.insurance-guarantee i {
+	margin-left: 20upx;
+	vertical-align: middle;
+	margin-right: 10upx;
+}
+
+.insurance-list {
+	border-bottom: 1upx solid #eee;
+	width: 96%;
+	margin: 0px auto;
+	padding: 20upx 0;
+}
+
+.insurance-list:last-child {
+	border-bottom: none;
+}
+
+.insurance-list .name {
+	display: flex;
+	justify-content: space-between;
+}
+
+.insurance-list .name i {
+	color: #0086F6;
+	margin-left: 20upx;
+	vertical-align: middle;
+}
+
+.insurance-list p {
+	font-size: 24upx;
+	color: #999;
+	text-indent: 50upx;
+}
+
+.insurance-list .name radio {
+	margin-right: 4upx;
+	vertical-align: top;
+}
+
+
+/*机票常旅客*/
+.frequent-travellers {
+	display: block;
+	border-bottom: 1upx solid #eee;
+	margin-bottom: 20upx;
+}
+
+.frequent-travellers view {
+	display: inline-block;
+	border: 1upx solid #ddd;
+	border-radius: 6upx;
+	margin-left: 20upx;
+	width: 20%;
+	text-align: center;
+	height: 80upx;
+	line-height: 80upx;
+	margin-bottom: 20upx;
+	position: relative;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.frequent-travellers view.active {
+	border: 1upx solid #0086F6;
+	color: #0086F6;
+	position: relative;
+}
+
+.frequent-travellers view.active image {
+	display: block;
+}
+
+.frequent-travellers view image {
+	position: absolute;
+	width: 28upx;
+	height: 28upx;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+	display: none;
+}
+
+.frequent-travellers view:last-child {
+	border: 1upx solid #0086F6;
+	color: #0086F6;
+}
+
+.frequent-travellers view:last-child i {
+	vertical-align: middle;
+	margin-right: 6upx;
+}
+
+/*机票相关明细*/
+.detailed {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.detailed-box {
+	position: absolute;
+	left: 0;
+	bottom: 100upx;
+	width: 100%;
+	background: #fff;
+	border-top-left-radius: 10upx;
+	border-top-right-radius: 10upx;
+	padding-bottom: 20upx;
+}
+
+.detailed-list {
+	width: 94%;
+	margin: 0px auto;
+}
+
+.passenger-type-price {
+	display: flex;
+	justify-content: space-between;
+	height: 80upx;
+	line-height: 80upx;
+}
+
+.passenger-sublist {
+	display: flex;
+	justify-content: space-between;
+}
+
+.passenger-sublist text {
+	font-size: 24upx;
+	color: #999;
+}
+
+.determine-btn {
+	width: 96%;
+	margin: 0px auto;
+	margin-top: 20upx;
+}

@@ -1,0 +1,1 @@
+<view><view class="success"><view class="_p"><image src="../../../static/common/success-icon.png"></image></view><p vue-id="4fb17552-1" bind:__l="__l" vue-slots="{{['default']}}">恭喜,支付成功</p></view><view class="success-btn"><button hover-class="none">查看订单详情</button></view></view>
